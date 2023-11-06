@@ -1,12 +1,13 @@
 <script>
 	// @ts-ignore
 	import { concurrent } from 'svelte-typewriter';
-	import RegisterButton from './RegisterButton.svelte';
+	import MainButton from './MainButton.svelte';
+	import MutedButton from './MutedButton.svelte';
 </script>
 
 <div class="flex h-screen items-center justify-center">
 	<div class="absolute inset-0 -z-20 overflow-hidden"></div>
-	<link class="flex h-screen items-center justify-center" />
+	<link class="h-screerrn flex items-center justify-center" />
 	<div class="absolute inset-0 -z-20 overflow-hidden"></div>
 	<a href="#date" class="float1 absolute bottom-0 z-40 py-10">
 		<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
@@ -23,7 +24,13 @@
 					<p use:concurrent={{ interval: 100, mode: 'loop' }}>Smart Nitte Hackathon 2023</p>
 					<!-- <p use:concurrent={{ interval: 100, mode: 'loop' }}>24-hour intercollege coding challenge</p> -->
 				</div>
-				<RegisterButton />
+				<!-- <MainButton>Register</MainButton> -->
+				<p class="p-4 text-2xl">Hello XYZ</p>
+				<div class="flex gap-2">
+					<MainButton>Create Team</MainButton>
+					<MutedButton>Join a Team</MutedButton>
+				</div>
+				<!-- <MainButton>Your Team</MainButton> -->
 			</div>
 		</div>
 	</div>
