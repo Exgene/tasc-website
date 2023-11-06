@@ -71,8 +71,8 @@
 	}
 
 	/*
-  * Just a quick hamburger
-  */
+  	* Just a quick hamburger
+  	*/
 	#menuToggle span {
 		display: block;
 		width: 33px;
@@ -102,9 +102,9 @@
 	}
 
 	/* 
-  * Transform all the slices of hamburger
-  * into a crossmark.
-  */
+	* Transform all the slices of hamburger
+	* into a crossmark.
+	*/
 	#menuToggle input:checked ~ span {
 		opacity: 1;
 		transform: rotate(45deg) translate(-2px, -1px);
@@ -112,16 +112,16 @@
 	}
 
 	/*
-  * But let's hide the middle one.
-  */
+	* But let's hide the middle one.
+	*/
 	#menuToggle input:checked ~ span:nth-last-child(3) {
 		opacity: 0;
 		transform: rotate(0deg) scale(0.2, 0.2);
 	}
 
 	/*
-  * Ohyeah and the last one should go the other direction
-  */
+	* Ohyeah and the last one should go the other direction
+	*/
 	#menuToggle input:checked ~ span:nth-last-child(2) {
 		transform: rotate(-45deg) translate(0, -1px);
 	}
