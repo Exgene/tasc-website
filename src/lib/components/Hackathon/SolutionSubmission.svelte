@@ -16,14 +16,14 @@
 	<h2 class="pb-6 pt-4 font-jbExtrabold text-4xl">Solutions</h2>
 	<div>
 		<div class="flex flex-col sm:flex-row sm:gap-8">
-			<Input type="text" placeholder="Solution Title" class="mb-4 h-14 w-full rounded-2xl bg-gray-600 p-4 font-jbMedium text-white sm:w-96" />
-			<Input type="link" placeholder="Link to your ppt" class="mb-4 h-14 w-80 rounded-2xl bg-gray-600 p-4 font-jbMedium text-white sm:w-96" />
+			<Input type="text" placeholder="Solution Title" class="mb-4 h-14 w-full rounded-2xl border-2 border-[#fffff] bg-gray-600 p-4 font-jbMedium text-white sm:w-96" />
+			<Input type="link" placeholder="Link to your ppt" class="mb-4 h-14 w-80 rounded-2xl border-2 border-[#fffff] bg-gray-600 p-4 font-jbMedium text-white sm:w-96" />
 		</div>
 
-		<Textarea placeholder="Solution Description" class="w-96resize-none mb-4 h-40 rounded-2xl bg-gray-600 p-4 font-jbMedium text-white sm:w-full" />
+		<Textarea placeholder="Solution Description" class="w-96resize-none mb-4 h-40 rounded-2xl border-2 border-[#fffff] bg-gray-600 p-4 font-jbMedium text-white sm:w-full" />
 		<DropdownMenu.Root>
 			<DropdownMenu.Trigger asChild let:builder>
-				<Button variant="outline" builders={[builder]} class="mb-4 h-14 w-full rounded-2xl bg-gray-600 p-4 font-jbMedium text-slate-400 sm:w-full">Problem Statements</Button>
+				<Button variant="outline" builders={[builder]} class="mb-4 h-14 w-full rounded-2xl border-2 border-[#fffff] bg-gray-600 p-4 font-jbMedium text-slate-400 sm:w-full">Problem Statements</Button>
 			</DropdownMenu.Trigger>
 			<DropdownMenu.Content class="w-56">
 				<DropdownMenu.Label>Panel Position</DropdownMenu.Label>
@@ -36,6 +36,5 @@
 			</DropdownMenu.Content>
 		</DropdownMenu.Root>
 	</div>
-
 	<MainButton hrefId="/createteam">Submit</MainButton>
 </div>

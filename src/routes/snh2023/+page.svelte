@@ -2,6 +2,7 @@
 	import AboutSection from '$lib/components/Hackathon/AboutSection.svelte';
 	import CreateTeam from '$lib/components/Hackathon/CreateTeam.svelte';
 	import DateComponent from '$lib/components/Hackathon/DateComponent.svelte';
+	import Footer from '$lib/components/Hackathon/Footer.svelte';
 	import Hero from '$lib/components/Hackathon/HeroSection.svelte';
 	import JoinTeam from '$lib/components/Hackathon/JoinTeam.svelte';
 	import SolutionSubmission from '$lib/components/Hackathon/SolutionSubmission.svelte';
@@ -68,7 +69,7 @@
 	</section>
 
 	<section>
-		<SolutionSubmission/>
+		<SolutionSubmission />
 	</section>
 
 	<!-- <section id="themes">
@@ -80,4 +81,5 @@
 		<Sponsors />
 		<Footer />
 	</section> -->
+	<Footer />
 </main>
