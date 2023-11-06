@@ -8,13 +8,13 @@
 <div>
 	<div class="fixed top-0 z-50 hidden w-full backdrop-blur-md md:grid">
 		<div class="flex items-center justify-between md:px-20 lg:px-32">
-			<a href="#home">
+			<a href="/">
 				<img src="/TASCLogo.png" class="w-20" alt="logo" />
 			</a>
-			<ul class="font-jbBold flex flex-wrap items-center justify-between space-x-8 py-3 pb-5 tracking-wider md:text-lg">
+			<ul class="flex flex-wrap items-center justify-between space-x-8 py-3 pb-5 font-jbBold tracking-wider md:text-lg">
 				<div class="transition duration-300 hover:drop-shadow-[0_0_0.2rem_#d2b863]"><a href="#about" class="scroll-smooth underline-offset-8 transition duration-300 hover:drop-shadow-[0_0_0.2rem_#460a07]">About</a></div>
 				<div class="transition duration-300 hover:drop-shadow-[0_0_0.2rem_#d2b863]"><a href="#timeline" class="scroll-smooth underline-offset-8 transition duration-300 hover:drop-shadow-[0_0_0.2rem_#460a07]">Timeline</a></div>
-				<div class="transition duration-300 hover:drop-shadow-[0_0_0.2rem_#d2b863]"><a href="#themes" class="scroll-smooth underline-offset-8 transition duration-300 hover:drop-shadow-[0_0_0.2rem_#460a07]">Themes</a></div>
+				<div class="transition duration-300 hover:drop-shadow-[0_0_0.2rem_#d2b863]"><a href="#themes" class="scroll-smooth underline-offset-8 transition duration-300 hover:drop-shadow-[0_0_0.2rem_#460a07]">Problem Statements</a></div>
 				<div class="transition duration-300 hover:drop-shadow-[0_0_0.2rem_#d2b863]"><a href="#prizes" class="scroll-smooth underline-offset-8 transition duration-300 hover:drop-shadow-[0_0_0.2rem_#460a07]">Goodies</a></div>
 			</ul>
 		</div>
@@ -28,11 +28,11 @@
 				<span></span>
 
 				<ul id="menu">
-					<a class="font-jbBold mb-10 mt-10 text-2xl" href="#home" on:click={closeMenu}> Home </a>
-					<a class="font-jbBold mb-10 text-2xl" href="#about" on:click={closeMenu}> About </a>
-					<a class="font-jbBold mb-10 text-2xl" href="#flowchart" on:click={closeMenu}> Timeline </a>
-					<a class="font-jbBold mb-10 text-2xl" href="#themes" on:click={closeMenu}> Themes </a>
-					<a class="font-jbBold mb-10 text-2xl" href="#prizes" on:click={closeMenu}> PGoodies </a>
+					<a class="mb-10 mt-10 font-jbBold text-2xl" href="#home" on:click={closeMenu}> Home </a>
+					<a class="mb-10 font-jbBold text-2xl" href="#about" on:click={closeMenu}> About </a>
+					<a class="mb-10 font-jbBold text-2xl" href="#flowchart" on:click={closeMenu}> Timeline </a>
+					<a class="mb-10 font-jbBold text-2xl" href="#themes" on:click={closeMenu}> Problem Statements </a>
+					<a class="mb-10 font-jbBold text-2xl" href="#prizes" on:click={closeMenu}> Goodies </a>
 				</ul>
 			</div>
 		</nav>
